@@ -1,9 +1,10 @@
 import './style.css';
 
-function SingIn(){
+function SignIn(){
    return(
      <>
-        <div classnName="singin-page">
+        <div className="signIn-page">
+           <h2>SignIn</h2>
            <input type="email" />
            <input type="password" />
            <button onClick={()=>{ alert("Clicou!") }}>Entrar</button>
@@ -11,3 +12,5 @@ function SingIn(){
      </>
    )
 }
+
+export default SignIn;
